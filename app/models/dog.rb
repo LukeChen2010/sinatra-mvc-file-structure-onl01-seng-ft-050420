@@ -4,4 +4,8 @@ class Dog
   
   def initialize
   end
+  
+  def self.all
+    return @@all
+  end
 end
